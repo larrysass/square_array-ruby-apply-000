@@ -1,13 +1,5 @@
-def square_array(array)
-new_array = []
-array.each do |i|
-i2 = i ** 2 
- new_array << i2 
-end
-return new_array
-  
-end
+
 
 def square_array(array)
-  
-array.collect do
+array.collect {|x| x ** 2}
+end
